@@ -1,4 +1,0 @@
-module(
-    name = "sekai-master-db",
-    version = "4.2.0.19.5.tw",
-)
