@@ -1,0 +1,11 @@
+{
+    "integrity": "sha384-5o/4aftviRtWwv5jmxEuinzBnTG+9kW/Q7zjt2ctNG0S/9Hu6C/uRYYgbXlUUyMN",
+    "strip_prefix": "sekai-master-db-diff-e07751daf36849f0ed7d9268094278e4ae44be31",
+    "url": "https://github.com/Sekai-World/sekai-master-db-diff/archive/e07751daf36849f0ed7d9268094278e4ae44be31.zip",
+    "patch_strip": 0,
+    "patches": {
+      "add_build_file.patch": "sha384-hvrdL5/D6tORVWnwD1O99KVnw91gTsY/r8r12VMQUSloaeJhkOCVHagxhITXyebH",
+      "add_module_file.patch": "sha384-oNLjH9Lo+0mTkZPBmvsTtIGsQ6bLt2SEfwgC2LeOzysZPzFMN4m0otnRk23qGeQz",
+      "server_id.patch": "sha384-V5iklNsUIEQcn/zNAo0HDdBA0KMesGtERGGoGXvmMa+3SSoX8SHnqsE2op9opcY9"
+    }
+}
