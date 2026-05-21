@@ -1,0 +1,21 @@
+--- /dev/null
++++ BUILD.bazel
+@@ -0,0 +1,18 @@
++filegroup(
++    name = "sekai-master-db",
++    srcs = glob(["*.json"]),
++    visibility = ["//visibility:public"],
++)
++
++genrule(
++    name = "sentinel",
++    outs = ["sentinel.txt"],
++    cmd = "echo lel > $@",
++    visibility = ["//visibility:public"],
++)
++
++cc_library(
++    name = "server_id",
++    srcs = ["server_id.cc"],
++    visibility = ["//visibility:public"],
++)
